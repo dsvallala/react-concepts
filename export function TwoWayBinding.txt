@@ -24,15 +24,13 @@ User Name : <input type="text" onChange={GetName} value-{userName} />
 
   <script>
   function GetName (){
-  document. querySelector ("p"). innerHTML = 'hello ! ${document.getElementById('${document.getElementById("txtName").
-  value} ;
+  document. querySelector ("p"). innerHTML = `hello ! ${document.getElementById("txtName").value}` ;
+  }
   </script>
 </head>
 <body>
  
- 
-
-  Name : < input onkeyup]"GetName()" type="text" id="txtName" › 
-  ‹p> </p›
+  Name : < input onkeyup = "GetName()" type="text" id="txtName" >
+  <p> </p>
 </body>
 </html>
